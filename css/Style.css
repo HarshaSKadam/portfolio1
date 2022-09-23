@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container{
+    padding: 0 6rem;
+}
+
+#hero{
+    height: 600px;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.678),rgba(0, 0, 0, 0.651)), url(../image/pexels-anastasiya-gepp-2036646.jpg) ;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    color: white;
+}
+#hero .main{
+    height: 100%;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height:22px;
+}
+.btn{
+    padding: 13px 20px;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    background-color: pink;
+    color: black;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    border-radius: 50px;
+}
+
+#hero .main h1,p{
+    margin: 0 0 16px 0;
+}
+
+
+#about{
+    height: 100%;
+    padding: 70px 0;
+    width: 100%;
+    text-align: center;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    padding: 80px 0;
+    background-color: whitesmoke;
+}
+.doing{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#content .doing .cnt{
+    height: 300px;
+    width: 200px;
+    padding: 20px 13px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+#content .doing .cnt:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+#content .doing .fa-solid{
+    font-size: 55px;
+    margin: 20px;
+}
+
+#content .doing h4{
+    margin: 15px 0;
+}
+#kalay{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#kalay .kalaycnt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#kalay .kalaycnt .img-ct{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+#kalay .kalaycnt .img-ct img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;  
+}
+#kalay .kalaycnt .kalay-icons{
+    text-align: center;
+}
+#kalay .kalaycnt .img-ct .kalay-icons .fa-brands{
+    font-size: 22px;
+    margin: 10px;
+}
+#kalay .kalaycnt .img-ct p{
+    margin: 10px 0 0 0;
+}
+
+#saluted{
+    height: 100%;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+}
+#port{
+    height: 100%;
+    width: 100%;
+}
+#port .port-main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#port .port-main img{
+    height: 400px;
+    width: 350px;
+    background-size: cover;
+    object-fit: cover;
+    margin: 10px;
+    padding: 12px;
+}
+#contact{
+    padding: 80px 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background-color: whitesmoke;
+}footer p{
+    font-size: 16px;
+}
+footer i{
+    padding: 12px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 5px;
+    transition: 0.3s ease-in-out;
+}
+footer i:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+@media screen and (max-width:720px) {
+    h1{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 11px;
+    }
+
+    .container{
+        padding: 0 2rem;
+    }
+
+}
